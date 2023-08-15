@@ -1,0 +1,71 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: linear-gradient(0deg, rgba(34,195,174,0.8911764534915528) 0%, rgba(49,199,165,1) 7%, rgba(248,253,45,1) 100%);
+}
+
+#calcTemp {
+    padding: 29px 67px;
+    min-height: 290px;
+    background: rgb(11,241,53);
+    background: linear-gradient(90deg, rgba(11,241,53,0.9051820557324493) 0%, rgba(45,235,83,1) 17%, rgba(130,233,41,1) 24%, rgba(253,224,29,0.840756285424326) 49%, rgba(243,226,32,1) 51%, rgba(199,234,43,1) 60%, rgba(154,242,54,1) 69%, rgba(94,252,69,1) 81%, rgba(94,252,69,1) 82%, rgba(94,252,69,1) 84%, rgba(94,252,69,1) 86%, rgba(94,252,69,1) 88%); 
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+label {
+    font-size: 30px;
+    line-height: 78px;
+}
+
+#temp {
+    width: 110px;
+    height: 34px;
+    border-radius: 5px;
+    margin: 12px;
+    padding: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+}
+
+#temp_diff {
+    width: 120px;
+    height: 34px;
+    border-radius: 5px;
+    margin: 12px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+}
+
+#submit {
+    width: 100px;
+    border-radius: 5px;
+    margin: 30px 0 20px 0;
+    font-size: 18px;
+    background-color: rgb(218 229 220);
+    padding: 5px;
+    transition: all 0.5s ease;
+}
+
+#submit:hover{
+    background-color: rgb(41, 225, 87);
+    cursor: pointer;
+}
+
+#result{
+    font-size: 27px;
+}
